@@ -12,6 +12,7 @@ import devices from "../devices"
 
 
 const BlobDiv = styled.div`
+    
     height: 250px;
     width: 250px;
 
@@ -25,6 +26,8 @@ const BlobDiv = styled.div`
     justify-content: center;
     
     position: relative;
+
+    
 
     @media(min-width: 600px){
         height: 350px;
@@ -97,7 +100,6 @@ const WelcomeSection = styled.section`
     }
 `
 
-
 const FadeIn = keyframes`
     0%{
         opacity: 0;
@@ -108,8 +110,9 @@ const FadeIn = keyframes`
 `
 
 const ImgProfile = styled.img`
-    width: 400px;
-    height: 400px;
+    
+    width: 450px;
+    height: 450px;
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
@@ -124,8 +127,9 @@ const ImgProfile = styled.img`
 `
 
 const ProfileDiv = styled.div`
-    margin-left: clamp(200px, 20%, 500px);
-    animation: ${FadeIn} 0.25s ease-in;
+    margin-inline: clamp(100px, 15%, 500px) clamp(100px, 10%, 150px);
+
+    animation: ${FadeIn} 0.3s ease-in;
     
     position: relative;
     &:before{
@@ -139,7 +143,8 @@ const ProfileDiv = styled.div`
         border: 3px solid rgba(255, 255, 255, 1);
         z-index: -1;
     }
-    @media (max-width: 1000px){
+
+    @media (max-width: 1200px){
         display: none;
     }
 `
@@ -163,7 +168,6 @@ function Welcome(){
                     </LinkToOtherWebsite>
                 <LinkToOtherWebsite>CV</LinkToOtherWebsite>
             </ImportantLinks>
-
             
             <BlobDiv>
                 <Hi>Hi, I'm</Hi>
@@ -173,6 +177,7 @@ function Welcome(){
             <ProfileDiv>
                 <ImgProfile src={Profile} alt='photo of very distinguished man'/>
             </ProfileDiv>
+            
         </WelcomeSection>
     )
 }

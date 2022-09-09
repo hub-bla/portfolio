@@ -33,6 +33,7 @@ function LetterPart({toggle, d, wait, color}){
 const Svg = styled.svg`
     position: relative;
     width: 80%;
+    left: 12px;
 `
 
 

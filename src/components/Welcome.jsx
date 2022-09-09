@@ -86,12 +86,15 @@ const WelcomeSection = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    
     background-image: url(${topLeftBlob}), url(${bottomRightBlob});
     background-repeat: no-repeat;
     background-position: top left, bottom 30px right;
-
+    
     position: relative;
+
+    @media(min-width: 1000px){
+        background-size: 10%;
+    }
 `
 
 
@@ -121,7 +124,7 @@ const ImgProfile = styled.img`
 `
 
 const ProfileDiv = styled.div`
-    margin-left: clamp(50px, 20%, 300px);
+    margin-left: clamp(200px, 20%, 500px);
     animation: ${FadeIn} 0.25s ease-in;
     
     position: relative;

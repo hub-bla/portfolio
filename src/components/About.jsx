@@ -13,7 +13,9 @@ const Text = styled.p`
         font-size: 30px;
     }
 `
-
+const BlueText = styled.span`
+    color: #3A88FE;
+`
 const AboutSection = styled(Section)`
     background-image: url(${MobileLine});
     background-repeat: no-repeat;
@@ -27,6 +29,8 @@ const AboutSection = styled(Section)`
     @media(min-width: 1000px){
         background-image: url(${DesktopLine});
     }
+
+   
 
 `
 
@@ -79,7 +83,7 @@ function About(){
                     Me, Myself and I
                 </SectionTitle>
                 <Text>
-                    Hello, my name is Hubert and I am a self-taught frontend developer. In the last year I have learned technologies such as HTML, CSS, JS,  React,  all of which I know at a basic level.
+                    Hello, my name is Hubert and I am a self-taught frontend developer. In the last year I have learned technologies such as <BlueText>HTML</BlueText>, <BlueText>CSS</BlueText>, <BlueText>JS</BlueText>,  <BlueText>React</BlueText>, <BlueText>Styled-Components</BlueText>, all of which I know at a basic level.
                 I am an open-minded person, motivated to learn more and more.
                 </Text>
             </TextDiv>

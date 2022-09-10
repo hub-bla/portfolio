@@ -8,7 +8,7 @@ import PictureOfMyself from '../assets/About/about-photo.webp'
 const Text = styled.p`
     width: 300px;
 
-    @media (min-width: 1200px){
+    @media (min-width: 600px) and (min-height: 700px){
         width: 400px;
         font-size: 30px;
     }

@@ -7,9 +7,16 @@ import topLeftBlob from "../assets/WelcomePage/blob-top-left.svg"
 import bottomRightBlob from "../assets/WelcomePage/blob-bottom-right.svg"
 import Profile from "../assets/WelcomePage/profile.webp"
 
-import devices from "../devices"
 
 
+const FadeIn = keyframes`
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+`
 
 const BlobDiv = styled.div`
     
@@ -85,7 +92,7 @@ const LinkToOtherWebsite = styled.a`
 
 const WelcomeSection = styled.section`
     height: 100vh;
-
+    animation: ${FadeIn} 0.3s ease-in;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -100,14 +107,7 @@ const WelcomeSection = styled.section`
     }
 `
 
-const FadeIn = keyframes`
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-`
+
 
 const ImgProfile = styled.img`
     

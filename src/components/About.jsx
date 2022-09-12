@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import {Section, SectionTitle} from './SectionStyle'
-import MobileLine from '../assets/About/mobile-line.svg'
 import DesktopLine from '../assets/About/desktop-line.svg'
 import PictureOfMyself from '../assets/About/about-photo.webp'
 
@@ -9,28 +8,28 @@ const Text = styled.p`
     width: 300px;
 
     @media (min-width: 600px) and (min-height: 700px){
-        width: 400px;
-        font-size: 30px;
+        width: 420px;
+        font-size: 26px;
     }
 `
 const BlueText = styled.span`
     color: #3A88FE;
 `
 const AboutSection = styled(Section)`
-    background-image: url(${MobileLine});
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    background-position: 0 90%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    @media(min-width: 1000px){
+    @media(min-width: 1200px){
         background-image: url(${DesktopLine});
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        background-position: 0 90%;
     }
 
-   
+    @media(max-width: 1200px){
+        height: 100%;
+        padding: 150px 50px;
+    }
+
+
 
 `
 
@@ -40,7 +39,8 @@ const DivPic = styled.div`
     border-radius: 20px;
     margin-left: clamp(100px, 20%, 600px);
     position: relative;
-    @media (max-width: 1200px){
+    
+    @media(max-width: 1200px){
         display: none;
     }
 
@@ -66,7 +66,10 @@ const MePic = styled.img`
 `
 
 const TextDiv = styled.div`
-    margin-top: 20%;
+    margin-top: 25%;
+    @media(max-width: 1200px){
+        margin: 0;
+    }
 `
 
 const FlexContainer = styled.div`
@@ -83,13 +86,13 @@ function About(){
                     Me, Myself and I
                 </SectionTitle>
                 <Text>
-                    Hello, my name is Hubert and I am a self-taught frontend developer. In the last year I have learned technologies such as <BlueText>HTML</BlueText>, <BlueText>CSS</BlueText>, <BlueText>JS</BlueText>,  <BlueText>React</BlueText>, <BlueText>Styled-Components</BlueText>, all of which I know at a basic level.
+                    I am a 18 years old self-taught frontend developer. In the last year I have learned technologies such as <BlueText>HTML</BlueText>, <BlueText>CSS</BlueText>, <BlueText>JS</BlueText>,  <BlueText>React</BlueText>, <BlueText>Styled-Components</BlueText>, all of which I know at a basic level.
                 I am an open-minded person, motivated to learn more and more.
                 </Text>
             </TextDiv>
         </FlexContainer>
         <DivPic>
-            <MePic src={PictureOfMyself}/>
+            <MePic src={PictureOfMyself} alt=''/>
         </DivPic>
         
     </AboutSection>

@@ -26,7 +26,7 @@ const AboutSection = styled(Section)`
 
     @media(max-width: 1200px){
         height: 100%;
-        padding: 150px 50px;
+        padding: 75px 0;
     }
 
 

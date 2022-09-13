@@ -15,12 +15,12 @@ const CarouselImg = styled.img`
 
     @media (min-width: 1200px){
         width: 800px;
-        
+        border: 4px solid #fff;
     }
     
     object-fit: cover;
     border-radius: 20px;
-    border: 4px solid #fff;
+    border: 2px solid #fff;
     position: relative;
 `
 const CarouselDiv =  styled.div`

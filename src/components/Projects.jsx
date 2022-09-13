@@ -5,6 +5,13 @@ import Carousel from './Carousel'
 const ProjectSection = styled(Section)`
     flex-direction: column;
     background-color: #0D1423;
+    @media(max-width: 1200px){
+        height: 100%;
+        @media(max-width: 1200px){
+            height: 100%;
+            padding: 75px 0;
+        }
+    }
     
 `
 

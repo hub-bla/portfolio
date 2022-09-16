@@ -22,7 +22,7 @@ const ContactSection = styled(Section)`
         background-size: 20%, 40%;
         background-position: 90% 100%, 100% 20%;
         display: block;
-        padding: 5% 0 0 10%
+        padding: 2% 0 0 10%
     }
 
 `
@@ -44,7 +44,7 @@ const ContactForm = styled.form`
 const SmallInput = styled.input`
     border: none;
     border-bottom: 2px solid #fff;
-    background-color: transparent !important;
+    background-color: transparent;
     width: 100%;
     padding: 10px;
     font-size: 20px;
@@ -52,10 +52,9 @@ const SmallInput = styled.input`
     font-family: 'Marvel', sans-serif;
     color: #fff;
     outline: none;
-
     &:focus{
-        border: 2px solid #fff;
         border-radius: 20px;
+        border: 2px solid #fff;
     }
 `
 

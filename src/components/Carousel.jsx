@@ -101,15 +101,15 @@ function Carousel(){
         <CarouselDiv>
 
             <LeftButton onClick={previousItem}>
-                <ArrowButton src={Arrow} />
+                <ArrowButton src={Arrow} alt='' id='left-button'/>
             </LeftButton>
             
-            <a href={data[count].link} target="_blank">
+            <a href={data[count].link} target="_blank" aria-label="Jump to the project">
                 <CarouselImg src={data[count].src} alt='' />
             </a>
 
             <RightButton onClick={nextItem}>
-                <ArrowButton src={Arrow} />
+                <ArrowButton src={Arrow} alt='' id='right-button'/>
             </RightButton>
             
         </CarouselDiv>

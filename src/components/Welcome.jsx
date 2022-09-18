@@ -166,12 +166,12 @@ function Welcome(){
                 target="_blank">
                     Linkedin
                     </LinkToOtherWebsite>
-                <LinkToOtherWebsite>CV</LinkToOtherWebsite>
+                {/* <LinkToOtherWebsite>CV</LinkToOtherWebsite> */}
             </ImportantLinks>
             
             <BlobDiv>
                 <Hi>Hi, I'm</Hi>
-                    <Logo />
+                    <Logo alt=''/>
             </BlobDiv>
 
             <ProfileDiv>

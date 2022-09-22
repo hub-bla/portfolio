@@ -9,7 +9,7 @@ const Text = styled.p`
 
     @media (min-width: 600px) and (min-height: 700px){
         width: 420px;
-        font-size: 26px;
+        font-size: 18px;
     }
 `
 const BlueText = styled.span`
@@ -92,7 +92,7 @@ function About(){
             </TextDiv>
         </FlexContainer>
         <DivPic>
-            <MePic src={PictureOfMyself} alt=''/>
+            <MePic src={PictureOfMyself} alt='' loading='lazy'/>
         </DivPic>
         
     </AboutSection>

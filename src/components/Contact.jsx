@@ -47,8 +47,7 @@ const SmallInput = styled.input`
     background-color: transparent;
     width: 100%;
     padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
     font-family: 'Marvel', sans-serif;
     color: #fff;
     outline: none;
@@ -64,11 +63,12 @@ const MessageInput = styled.textarea`
     background-color: transparent;
 
     padding: 10px;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
+    
     font-family: 'Marvel', sans-serif;
     color: #fff;
     outline: none;
+    resize: none;
 
     
     border: 2px solid #fff;
@@ -83,9 +83,10 @@ const MessageInput = styled.textarea`
 const SendButton = styled.button`
     border: 2px solid #fff;
     border-radius: 20px;
-    font-size: 24px;
+    font-size: 18px;
     font-family: 'Marvel', sans-serif;
     font-weight: bold;
+    padding: 10px;
     color: #fff;
     background-color: transparent;
     width: 100%;
@@ -101,7 +102,7 @@ const SendButton = styled.button`
 
     @media(min-width: 1100px){
         border-radius: 15px;
-        padding: 10px;
+        
     }
 `
 
@@ -111,12 +112,13 @@ function Contact(){
         email: '',
         textarea: ''
     })
-
-
     function handleChange(event){
         const {value, name} = event.target
         setEmailData(prevEmailData => ({...prevEmailData, [name]: value}))
     }
+
+
+    
 
     return (
     <ContactSection>

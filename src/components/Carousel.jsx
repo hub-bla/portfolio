@@ -105,7 +105,7 @@ function Carousel(){
             </LeftButton>
             
             <a href={data[count].link} target="_blank" aria-label="Jump to the project">
-                <CarouselImg src={data[count].src} alt='' />
+                <CarouselImg src={data[count].src} alt='' loading="lazy"/>
             </a>
 
             <RightButton onClick={nextItem}>

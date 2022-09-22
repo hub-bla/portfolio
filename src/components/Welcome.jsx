@@ -46,14 +46,15 @@ const BlobDiv = styled.div`
 const Hi = styled.h1`
     
 
-    letter-spacing: 5px;
-    font-size: 40px;
+    letter-spacing: 2px;
+    font-size: 30px;
 
     position: relative;
     top: -20px;
     left: -40px;
     @media (min-width: 600px){
         left: -80px;
+        font-size: 40px;
     }
     
 `
@@ -65,12 +66,12 @@ const ImportantLinks = styled.div`
 
     display: flex;
     gap: 20px;
-    font-size: 24px;
+    font-size: 16px;
     margin-top: 20px;
     margin-right: 20px;
 
     @media(min-width: 600px){
-        font-size: 36px;
+        font-size: 22px;
         gap: 60px;
         margin-top: 30px;
         margin-right: 40px;

@@ -44,47 +44,36 @@ const CarouselButton = styled.button`
     cursor: pointer;
     background-color: transparent;
     border: none;
+    width: 48px;
+    height: 48px;
    
 `
 const ArrowButton = styled.img`
-    width: 20px;
-    @media (min-width: 600px){
-        width: 40px;
-    }
+    width: 48px;
+    height: 48px;
+    object-position: fit;
 `
 
 const LeftButton = styled(CarouselButton)`
-    top: 50%;
-    left: -12%;
+    bottom: -40%;
+    left: 20%;
     transform: rotate(180deg);
     @media (min-width: 600px){
+        bottom: 50%;
         left: -20%;
     }
 `
 
 const RightButton = styled(CarouselButton)`
-    top: 50%;
-    right: -12%;
+    bottom: -40%;
+    right: 20%;
     @media (min-width: 600px){
+        bottom: 50%;
         right: -20%;
     }
 `
 
-const BackgroundDiv = styled.div`
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 60%;
-    background-image: url(${MobileWaves});
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    background-position: top;
-    @media (min-width: 600px){
-        background-image: url(${Waves});
-}
-`
+
 
 function Carousel(){
     const [count, setCount] = useState(0)

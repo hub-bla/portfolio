@@ -6,10 +6,10 @@ import PictureOfMyself from '../assets/About/about-photo.webp'
 
 const Text = styled.p`
     width: 300px;
-
+    font-size: 18px;
     @media (min-width: 600px) and (min-height: 700px){
         width: 420px;
-        font-size: 18px;
+        font-size: 26px;
     }
 `
 const BlueText = styled.span`

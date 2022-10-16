@@ -45,7 +45,7 @@ Error generating stack: `+o.message+`
     justify-content: center;
     align-items: center;
 `,Ea=X.h2`
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 20px;
     
     @media (min-width: 600px){
@@ -317,14 +317,14 @@ Error generating stack: `+o.message+`
     
 
     letter-spacing: 2px;
-    font-size: 30px;
+    font-size: 40px;
 
     position: relative;
     top: -20px;
     left: -40px;
     @media (min-width: 600px){
         left: -80px;
-        font-size: 40px;
+        font-size: 50px;
     }
     
 `,gy=X.div`
@@ -346,10 +346,13 @@ Error generating stack: `+o.message+`
     }
 `,jf=X.a`
     
-    font-family: 'Just Another Hand', cursive;
+    font-family: 'just_another_handregular', cursive;
     color: #fff;
     text-decoration: none;
-
+    font-size: 25px;
+    @media(min-width: 600px){
+        font-size: 30px;
+    }
     transition: color 0.15s;
 
     &:hover{

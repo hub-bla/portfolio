@@ -46,15 +46,15 @@ const BlobDiv = styled.div`
 const Hi = styled.h1`
     
 
-    letter-spacing: 2px;
-    font-size: 30px;
+    letter-spacing: 5px;
+    font-size: 40px;
 
     position: relative;
     top: -20px;
     left: -40px;
     @media (min-width: 600px){
         left: -80px;
-        font-size: 40px;
+        font-size: 50px;
     }
     
 `
@@ -79,11 +79,14 @@ const ImportantLinks = styled.div`
 `
 
 const LinkToOtherWebsite = styled.a`
-    
-    font-family: 'Just Another Hand', cursive;
+    letter-spacing: 2px;
+    font-family: 'just_another_handregular', cursive;
     color: #fff;
     text-decoration: none;
-
+    font-size: 25px;
+    @media(min-width: 600px){
+        font-size: 30px;
+    }
     transition: color 0.15s;
 
     &:hover{

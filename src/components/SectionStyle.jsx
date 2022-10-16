@@ -10,7 +10,8 @@ const Section = styled.section`
 
 
 const SectionTitle = styled.h2`
-    font-size: 30px;
+    font-size: 35px;
+    letter-spacing: 5px;
     margin-bottom: 20px;
     
     @media (min-width: 600px){

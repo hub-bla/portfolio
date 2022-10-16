@@ -46,6 +46,7 @@ Error generating stack: `+o.message+`
     align-items: center;
 `,Ea=X.h2`
     font-size: 35px;
+    letter-spacing: 5px;
     margin-bottom: 20px;
     
     @media (min-width: 600px){
@@ -316,7 +317,7 @@ Error generating stack: `+o.message+`
 `,my=X.h1`
     
 
-    letter-spacing: 2px;
+    letter-spacing: 5px;
     font-size: 40px;
 
     position: relative;
@@ -345,7 +346,7 @@ Error generating stack: `+o.message+`
         margin-right: 40px;
     }
 `,jf=X.a`
-    
+    letter-spacing: 2px;
     font-family: 'just_another_handregular', cursive;
     color: #fff;
     text-decoration: none;

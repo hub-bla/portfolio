@@ -80,7 +80,7 @@ const ImportantLinks = styled.div`
 
 const LinkToOtherWebsite = styled.a`
     
-    font-family: cursive;
+    font-family: 'Just Another Hand', cursive;
     color: #fff;
     text-decoration: none;
 

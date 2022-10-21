@@ -80,3 +80,9 @@ body {
   font-family: 'marvelregular', sans-serif;
   font-size: 20px;
 }
+
+
+a{
+  color: #fff;
+  text-decoration: none;
+}

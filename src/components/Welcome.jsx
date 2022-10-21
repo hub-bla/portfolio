@@ -120,7 +120,7 @@ const ImgProfile = styled.img`
     object-fit: cover;
     object-position: top;
     border-radius: 50%;
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
     position: relative;   
 

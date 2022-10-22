@@ -1,88 +1,62 @@
+@font-face {
+	font-family: "marvelbold";
+	src: url("./fonts/marvel-bold-webfont.woff2") format("woff2"),
+		url("./fonts/marvel-bold-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
 
 @font-face {
-  font-family: 'marvelbold';
-  src: url('./fonts/marvel-bold-webfont.woff2') format('woff2'),
-       url('./fonts/marvel-bold-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
+	font-family: "marvelbold_italic";
+	src: url("./fonts/marvel-bolditalic-webfont.woff2") format("woff2"),
+		url("./fonts/marvel-bolditalic-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
-
-
-
 
 @font-face {
-  font-family: 'marvelbold_italic';
-  src: url('./fonts/marvel-bolditalic-webfont.woff2') format('woff2'),
-       url('./fonts/marvel-bolditalic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
+	font-family: "marvelitalic";
+	src: url("./fonts/marvel-italic-webfont.woff2") format("woff2"),
+		url("./fonts/marvel-italic-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
-
-
-
 
 @font-face {
-  font-family: 'marvelitalic';
-  src: url('./fonts/marvel-italic-webfont.woff2') format('woff2'),
-       url('./fonts/marvel-italic-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
+	font-family: "marvelregular";
+	src: url("./fonts/marvel-regular-webfont.woff2") format("woff2"),
+		url("./fonts/marvel-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
-
-
-
 
 @font-face {
-  font-family: 'marvelregular';
-  src: url('./fonts/marvel-regular-webfont.woff2') format('woff2'),
-       url('./fonts/marvel-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
+	font-family: "just_another_handregular";
+	src: url("./fonts/justanotherhand-regular-webfont.woff2") format("woff2"),
+		url("./fonts/justanotherhand-regular-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
 }
 
-
-
-
-@font-face {
-  font-family: 'just_another_handregular';
-  src: url('./fonts/justanotherhand-regular-webfont.woff2') format('woff2'),
-       url('./fonts/justanotherhand-regular-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
-
-
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-
-
 
 h1,
 h2 {
-font-family: 'just_another_handregular', cursive;
-
+	font-family: "just_another_handregular", cursive;
 }
-
-
 
 body {
-  background-color: #0D1423;
-  color: white;
-  font-family: 'marvelregular', sans-serif;
-  font-size: 20px;
+	background-color: #0d1423;
+	color: white;
+	font-family: "marvelregular", sans-serif;
+	font-size: 20px;
 }
 
-
-a{
-  color: #fff;
-  text-decoration: none;
+a {
+	color: #fff;
+	text-decoration: none;
 }

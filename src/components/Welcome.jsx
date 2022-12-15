@@ -88,7 +88,7 @@ const WelcomeSection = styled.section`
 	height: 100vh;
 	animation: ${FadeIn} 0.3s ease-in;
 	display: flex;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	background-image: url(${topLeftBlob}), url(${bottomRightBlob});
 	background-repeat: no-repeat;
@@ -118,7 +118,7 @@ const ImgProfile = styled.img`
 `
 
 const ProfileDiv = styled.div`
-	margin-inline: clamp(100px, 15%, 500px) clamp(100px, 10%, 150px);
+	// margin-inline: clamp(100px, 15%, 500px) clamp(100px, 10%, 150px);
 
 	animation: ${FadeIn} 0.3s ease-in;
 

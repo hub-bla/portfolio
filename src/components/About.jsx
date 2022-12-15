@@ -1,7 +1,7 @@
 import styled from "styled-components"
 import { Section, SectionTitle } from "./SectionStyle"
 import DesktopLine from "../assets/About/desktop-line.svg"
-import PictureOfMyself from "../assets/About/about-photo.webp"
+import PictureOfMyself from "../assets/About/about-photo.png"
 
 const Text = styled.p`
 	width: 300px;
@@ -56,6 +56,7 @@ const MePic = styled.img`
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	object-position: 25% 50%;
 	border-radius: 20px;
 `
 
@@ -77,12 +78,18 @@ function About() {
 				<TextDiv>
 					<SectionTitle>Me, Myself and I</SectionTitle>
 					<Text>
-						I am a 18 years old self-taught frontend developer. In the last year
-						I have learned technologies such as <BlueText>HTML</BlueText>,{" "}
+						I am a 18 years old self-taught frontend developer, currently
+						studying at Poznan University of Technology. A lot has happend
+						during my adventure with proggraming. Except the fact that I learned
+						technologies such as <BlueText>HTML</BlueText>,{" "}
 						<BlueText>CSS</BlueText>, <BlueText>JS</BlueText>,{" "}
 						<BlueText>React</BlueText>, <BlueText>Styled-Components</BlueText>,
-						all of which I know at a basic level. I am an open-minded person,
-						motivated to learn more and more.
+						all of which I know at a basic level, I also joined the student
+						organisation at my university called AKAI where I also worked on
+						some project. The other thing I'd like to share is that I won with
+						my friends a hackathon created by PUT and AKAI in the best idea
+						cathegory. I am an open-minded person, motivated to learn more and
+						more.
 					</Text>
 				</TextDiv>
 			</FlexContainer>

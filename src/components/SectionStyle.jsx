@@ -13,7 +13,7 @@ const SectionTitle = styled.h2`
 	margin-bottom: 20px;
 
 	@media (min-width: 600px) {
-		font-size: 40px;
+		font-size: 50px;
 	}
 `
 

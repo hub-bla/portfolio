@@ -1,13 +1,12 @@
 import styled from "styled-components"
-import { Section, SectionTitle } from "./SectionStyle"
-import DesktopLine from "../assets/About/desktop-line.svg"
+import { Section, SectionTitle } from "./styles/SectionStyle"
 import PictureOfMyself from "../assets/About/about-photo.png"
 
 const Text = styled.p`
-	width: 300px;
+	width: 350px;
 	font-size: 18px;
 	@media (min-width: 600px) and (min-height: 700px) {
-		width: 420px;
+		width: 450px;
 		font-size: 26px;
 	}
 `
@@ -16,10 +15,6 @@ const BlueText = styled.span`
 `
 const AboutSection = styled(Section)`
 	@media (min-width: 1200px) {
-		background-image: url(${DesktopLine});
-		background-repeat: no-repeat;
-		background-size: 100vw;
-		background-position: 0 90%;
 	}
 
 	@media (max-width: 1200px) {
@@ -80,16 +75,25 @@ function About() {
 					<Text>
 						I am a 18 years old self-taught frontend developer, currently
 						studying at Poznan University of Technology. A lot has happend
-						during my adventure with proggraming. Except the fact that I learned
-						technologies such as <BlueText>HTML</BlueText>,{" "}
-						<BlueText>CSS</BlueText>, <BlueText>JS</BlueText>,{" "}
-						<BlueText>React</BlueText>, <BlueText>Styled-Components</BlueText>,
+						during my adventure with programming.
+					</Text>
+					<Text>
+						Except the fact that I learned technologies such as{" "}
+						<BlueText>HTML, </BlueText>
+						<BlueText>CSS, </BlueText> <BlueText>JS, </BlueText>
+						<BlueText>React, </BlueText>
+						<BlueText>Styled-Components, </BlueText>
+						<BlueText>Python, </BlueText>
 						all of which I know at a basic level, I also joined the student
-						organisation at my university called AKAI where I also worked on
-						some project. The other thing I'd like to share is that I won with
-						my friends a hackathon created by PUT and AKAI in the best idea
-						cathegory. I am an open-minded person, motivated to learn more and
-						more.
+						organisation at my university called AKAI where I also worked on a
+						website for settling boxes at WOSP. The other thing I'd like to
+						share is that I won with my friends a hackathon created by PUT and
+						AKAI in the best idea cathegory. I am an open-minded person,
+						motivated to learn more and more.
+					</Text>
+					<Text>
+						In my free time, you can find me running around Malta Lake or on
+						kaggle.
 					</Text>
 				</TextDiv>
 			</FlexContainer>

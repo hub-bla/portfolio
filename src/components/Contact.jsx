@@ -1,4 +1,4 @@
-import { Section, SectionTitle } from "./SectionStyle"
+import { Section, SectionTitle } from "./styles/SectionStyle"
 import styled from "styled-components"
 import Blob from "../assets/Contact/Group.svg"
 import Blobs from "../assets/Contact/Group-1.svg"

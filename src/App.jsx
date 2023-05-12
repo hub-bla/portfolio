@@ -1,15 +1,16 @@
 import "./App.css"
 import About from "./components/About"
 import Contact from "./components/Contact"
-import Projects from "./components/Projects"
 import Welcome from "./components/Welcome"
-
+import FrontendProjects from "./components/FrontendProjects"
+import MachineLearningProjects from "./components/MachineLearningProjects"
 function App() {
 	return (
 		<>
 			<Welcome />
 			<About />
-			<Projects />
+			<MachineLearningProjects />
+			<FrontendProjects />
 			<Contact />
 		</>
 	)

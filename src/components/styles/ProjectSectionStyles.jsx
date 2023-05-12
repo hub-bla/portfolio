@@ -1,8 +1,7 @@
 import { Section, SectionTitle } from "./SectionStyle"
 import styled from "styled-components"
-import data from "../carouseldata"
 
-const ProjectSection = styled(Section)`
+export const ProjectSection = styled(Section)`
 	flex-direction: column;
 	background-color: #0d1423;
 	@media (max-width: 1200px) {
@@ -14,7 +13,7 @@ const ProjectSection = styled(Section)`
 	}
 `
 
-const Project = styled.div`
+export const Project = styled.div`
 	width: 100%;
 	font-size: 35px;
 	letter-spacing: 2px;
@@ -32,16 +31,16 @@ const Project = styled.div`
 	}
 `
 
-const ProjectsTitle = styled(SectionTitle)`
+export const ProjectsTitle = styled(SectionTitle)`
 	margin-bottom: 60px;
 	z-index: 999;
 `
-const ProjectSvg = styled.img`
+export const ProjectSvg = styled.img`
 	width: 55px;
 	height: 55px;
 `
 
-const LinkToProject = styled.a`
+export const LinkToProject = styled.a`
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -54,27 +53,3 @@ const LinkToProject = styled.a`
 		opacity: 0.7;
 	}
 `
-
-function Projects() {
-	const projects = data.map((project) => {
-		return (
-			<Project
-				key={project.name}
-				start={project.id % 2 === 0 ? "flex-start" : "flex-end"}>
-				<LinkToProject href={project.link} target='_blank'>
-					{project.name}
-
-					{project.icon && <ProjectSvg src={project.icon} alt='' />}
-				</LinkToProject>
-			</Project>
-		)
-	})
-	return (
-		<ProjectSection>
-			<ProjectsTitle>Projects</ProjectsTitle>
-			{projects}
-		</ProjectSection>
-	)
-}
-
-export default Projects

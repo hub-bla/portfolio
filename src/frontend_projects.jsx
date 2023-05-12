@@ -1,15 +1,15 @@
-import Splitter from "./assets/CarouselImages/splitter.webp"
-import Tenzies from "./assets/CarouselImages/tenzies.webp"
-import Quizzical from "./assets/CarouselImages/quizzical.webp"
-import Countries from "./assets/CarouselImages/countries.webp"
-import Portfolio from "./assets/CarouselImages/portfolio.webp"
-import Flashcards from "./assets/CarouselImages/flashcards.webp"
+import Splitter from "./assets/Frontend_projects/splitter.webp"
+import Tenzies from "./assets/Frontend_projects/tenzies.webp"
+import Quizzical from "./assets/Frontend_projects/quizzical.webp"
+import Countries from "./assets/Frontend_projects/countries.webp"
+import Portfolio from "./assets/Frontend_projects/portfolio.webp"
+import Flashcards from "./assets/Frontend_projects/flashcards.webp"
 
-import Calculator from "./assets/Projects/calculator.svg"
-import Dice from "./assets/Projects/dice.svg"
-import Education from "./assets/Projects/education.svg"
-import Flag from "./assets/Projects/flag.svg"
-import Quiz from "./assets/Projects/multiple-choice-quiz.svg"
+import Calculator from "./assets/Projects_icons/calculator.svg"
+import Dice from "./assets/Projects_icons/dice.svg"
+import Education from "./assets/Projects_icons/education.svg"
+import Flag from "./assets/Projects_icons/flag.svg"
+import Quiz from "./assets/Projects_icons/multiple-choice-quiz.svg"
 const data = [
 	{
 		id: 0,

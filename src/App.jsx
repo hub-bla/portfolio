@@ -9,8 +9,8 @@ function App() {
 		<>
 			<Welcome />
 			<About />
-			<MachineLearningProjects />
 			<FrontendProjects />
+			<MachineLearningProjects />
 			<Contact />
 		</>
 	)

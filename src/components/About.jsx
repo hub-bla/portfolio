@@ -73,7 +73,7 @@ function About() {
 				<TextDiv>
 					<SectionTitle>Me, Myself and I</SectionTitle>
 					<Text>
-						I am a 18 years old self-taught frontend developer, currently
+						I am a 19 years old self-taught frontend developer, currently
 						studying at Poznan University of Technology. A lot has happend
 						during my adventure with programming.
 					</Text>

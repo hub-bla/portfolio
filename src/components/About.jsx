@@ -2,6 +2,8 @@ import styled from "styled-components"
 import { Section, SectionTitle } from "./styles/SectionStyle"
 import PictureOfMyself from "../assets/About/about-photo.png"
 
+const YEAR_OF_BIRTH = new Date("2003-12-17")
+
 const Text = styled.p`
 	width: 350px;
 	font-size: 18px;
@@ -14,8 +16,6 @@ const BlueText = styled.span`
 	color: #3a88fe;
 `
 const AboutSection = styled(Section)`
-	@media (min-width: 1200px) {
-	}
 
 	@media (max-width: 1200px) {
 		height: 100%;
@@ -73,9 +73,10 @@ function About() {
 				<TextDiv>
 					<SectionTitle>Me, Myself and I</SectionTitle>
 					<Text>
-						I am a 19 years old self-taught frontend developer, currently
-						studying at Poznan University of Technology. A lot has happend
-						during my adventure with programming.
+						I am a {Math.floor((Date.now() - YEAR_OF_BIRTH) / (1000* 3600 * 24 * 365))}{" "}
+						years old self-taught frontend developer, currently studying at
+						Poznan University of Technology. A lot has happend during my
+						adventure with programming.
 					</Text>
 					<Text>
 						Except the fact that I learned technologies such as{" "}

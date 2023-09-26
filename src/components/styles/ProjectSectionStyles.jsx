@@ -4,13 +4,9 @@ import styled from "styled-components"
 export const ProjectSection = styled(Section)`
 	flex-direction: column;
 	background-color: #0d1423;
-	@media (max-width: 1200px) {
-		height: 100%;
-		@media (max-width: 1200px) {
-			height: 100%;
-			padding: 75px 0;
-		}
-	}
+	height: 100%;
+		
+	padding: 75px 0;
 `
 
 export const Project = styled.div`
